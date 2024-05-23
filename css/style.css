@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para la sección de héroe */
+.hero {
+  background-color: #ffeb3b; /* Amarillo */
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #4caf50; /* Verde */
+}
+
+.hero p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Estilos para la sección "Acerca de nosotros" */
+.about-us {
+  background-color: #f5f5f5; /* Gris claro */
+  padding: 60px 0;
+}
+
+.about-us h2 {
+  font-size: 32px;
+  color: #4caf50; /* Verde */
+}
+
+.about-us p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilos para la sección de "Ubicación y Horarios" */
+.location-hours {
+  background-color: #fff; /* Blanco */
+  padding: 60px 0;
+}
+
+.location-hours h2 {
+  font-size: 32px;
+  color: #4caf50; /* Verde */
+}
+
+.location-hours p {
+  font-size: 16px;
+  color: #333;
+}
+
+.location-hours strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.faceicon {
+  width: 40px;
+  margin: 20px;
+}
+footer {
+  background-color: #f5f5f5;
+}
+/*Menu desplegable*/
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  align-items: stretch;
+}
+
+.btn-agregar {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2px;
+}
+
+.btn-agregar:hover {
+  background-color: #45a049;
+}
+
+.precio {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.imgmenu {
+  width: 100%;
+}
+/* Estilo para el icono del carrito */
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Estilo para el número de ítems en el carrito */
+.cart-item-count {
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+/* Estilo para el menú desplegable del carrito */
+.cart-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 250px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+.cart-dropdown.show {
+  display: block;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.cart-total {
+  font-weight: bold;
+}
+.descuento {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-shadow: -2px -2px 49px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -2px -2px 49px 1px rgba(0, 0, 0, 1);
+  box-shadow: -2px -2px 49px 1px rgb(228, 199, 38);
+  border-radius: 10px;
+  width: 450px;
+}
+.cart-dropdown {
+  color: black
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 2px;
+}
+.btn-comprar {
+  background-color: #6dc771;
+
+  border-radius: 5px;
+}
+/* Estilos para el contenedor del carrito */
+.cart {
+  position: relative;
+}
+
+/* Estilos para el botón del carrito */
+.cart-icon {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el contenido desplegable del carrito */
+.cart-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: none;
+  z-index: 999;
+}
+
+/* Estilos para mostrar el contenido del carrito cuando está abierto */
+.cart-dropdown.show {
+  display: block;
+}
+.menu {
+  margin: 10px
+  
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+.add-to-cart-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+#cart-dropdown {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: none;
+}
+
+#cart-dropdown.show {
+    display: block;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#cart-icon {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.cart-icon i {
+    font-size: 24px;
+}
+.menu img  {
+  width: 504px;
+    aspect-ratio: auto 504 / 378;
+    height: 200px;
+    object-fit: cover;
+  }
+  /* ----------------------------------------------
+ * Generated by Animista on 2024-5-23 16:36:27
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+  .fade-in {
+	-webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2024-5-23 16:41:57
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+

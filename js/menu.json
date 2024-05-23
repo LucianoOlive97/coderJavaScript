@@ -1,0 +1,154 @@
+{
+  "menu": [
+    {
+      "category": "Pizzas",
+      "subcategories": [
+        {
+          "subcategory": "Variedades",
+          "items": [
+            {
+              "name": "Tomate",
+              "id": "PIZ-001",
+              "description": "Pizza clásica con salsa de tomate, mozzarella y albahaca fresca.",
+              "price": 1200,
+              "sizes": ["Individual", "Mediana", "Grande"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856930-1d027314-c33d-4d45-850a-99a27956adc9.jpg?quality=90&width=1152&webp=1 "
+            },
+            {
+              "name": "Fugazza",
+              "id": "PIZ-002",
+              "description": "Pizza con salsa de tomate, mozzarella y pepperoni.",
+              "price": 1400,
+              "sizes": ["Individual", "Mediana", "Grande"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856930-5c6a1db6-f2e6-4149-b9f0-d3b61cfba961.jpg?quality=90&width=1152&webp=1"
+            },
+            {
+              "name": "Tomate y anchoas",
+              "id": "PIZ-003",
+              "description": "Pizza con salsa de tomate, mozzarella, gorgonzola, parmesano y queso de cabra.",
+              "price": 1600,
+              "sizes": ["Individual", "Mediana", "Grande"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856930-a196d71f-e58a-4992-a4b4-9c9d54ad49db.jpg?quality=90&width=1152&webp=1"
+            },
+            {
+              "name": "Doble queso",
+              "id": "PIZ-004",
+              "description": "Pizza con salsa de tomate, mozzarella, jamón y ananá.",
+              "price": 1500,
+              "sizes": ["Individual", "Mediana", "Grande"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856930-5a1df2f7-6c15-4a38-a53b-f30634deaa67.jpg?quality=90&width=1152&webp=1"
+            },
+            {
+              "name": "Especial con anchoas",
+              "id": "PIZ-005",
+              "description": "Pizza con salsa de tomate, mozzarella, rodajas de tomate y ajo.",
+              "price": 1300,
+              "sizes": ["Individual", "Mediana", "Grande"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856930-e25e87ce-3a98-4590-9a3d-2a9461287add.jpg?quality=90&width=1152&webp=1"
+            },
+            {
+              "name": "pizza doble queso especial",
+              "id": "PIZ-006",
+              "description": "Pizza sin salsa de tomate, con mozzarella y cebolla caramelizada.",
+              "price": 1250,
+              "sizes": ["Individual", "Mediana", "Grande"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856930-5f7dc6cc-181f-459a-947b-e55db1a8e9cf.jpg?quality=90&height=96&width=96&webp=1"
+            },
+            {
+              "name": "Carlitos comun",
+              "id": "PIZ-007",
+              "description": "Pizza con salsa de tomate, mozzarella, jamón y morrones.",
+              "price": 1400,
+              "sizes": ["Individual", "Mediana", "Grande"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856951-84cabfe1-d65e-456d-b537-b585fbd1b6db.jpg?quality=90&height=96&width=96&webp=1"
+            },
+            {
+              "name": "Carlitos con manteca",
+              "id": "PIZ-008",
+              "description": "Pizza con salsa de tomate, mozzarella, jamón, morrones, aceitunas y huevo.",
+              "price": 1700,
+              "sizes": ["Individual", "Mediana", "Grande"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/0730edd8-cfa5-435a-a644-4f48d4a54912.jpg?quality=90&height=96&width=96&webp=1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Bebidas",
+      "subcategories": [
+        {
+          "subcategory": "Gaseosas",
+          "items": [
+            {
+              "name": "Coca Cola",
+              "id": "BEB-001",
+              "description": "Bebida gaseosa de cola.",
+              "price": 300,
+              "sizes": ["350ml", "500ml", "1L", "1.5L"],
+              "image": "https://p.turbosquid.com/ts-thumb/dH/2H3Pyq/jpRfc9nK/01/jpg/1563864908/1920x1080/fit_q99/dee85551007c03eafbb14f990be82a46b54fe41b/01.jpg"
+            },
+            {
+              "name": "Fanta",
+              "id": "BEB-002",
+              "description": "Bebida gaseosa con sabor a naranja.",
+              "price": 300,
+              "sizes": ["350ml", "500ml", "1L", "1.5L"],
+              "image": "https://p.turbosquid.com/ts-thumb/HK/E3lg6M/wZ0rluuO/fanta/jpg/1523306885/1000x1000/fit_q99/3c95334ce5d28556d60edab1e075565440e89714/fanta.jpg"
+            },
+            {
+              "name": "Sprite",
+              "id": "BEB-003",
+              "description": "Bebida gaseosa con sabor a lima-limón.",
+              "price": 300,
+              "sizes": ["350ml", "500ml", "1L", "1.5L"],
+              "image": "https://distribuidorabelgrano.com/wp-content/uploads/2020/11/Captura-de-Pantalla-2020-11-04-a-las-16.41.11-e1604518968996.png"
+            }
+          ]
+        },
+        {
+          "subcategory": "Cervezas",
+          "items": [
+            {
+              "name": "Patagonia Ipa",
+              "id": "BEB-004",
+              "description": "Cerveza rubia argentina.",
+              "price": 500,
+              "sizes": ["330ml", "500ml", "1L"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856957-996a9b9e-77ea-4b7a-8f98-57348e7fb11a.jpg?quality=90&width=1152&webp=1"
+            },
+            {
+              "name": "Stella Artois",
+              "id": "BEB-005",
+              "description": "Cerveza belga tipo lager.",
+              "price": 600,
+              "sizes": ["330ml", "500ml"],
+              "image": "https://images.deliveryhero.io/image/pedidosya/products/856957-8fb52628-807a-46fc-b585-13eb47c2eb19.jpg?quality=90&width=1152&webp=1"
+            }
+          ]
+        },
+        {
+          "subcategory": "Vinos",
+          "items": [
+            {
+              "name": "Corona",
+              "id": "BEB-006",
+              "description": "Vino tinto Malbec.",
+              "price": 1000,
+              "sizes": ["750ml"],
+              "image": "https://st2.depositphotos.com/5648852/8241/i/450/depositphotos_82411606-stock-photo-corona-extra-beer-bottle.jpg"
+            },
+            {
+              "name": "Cerveza patagonia",
+              "id": "BEB-007",
+              "description": "Vino blanco Chardonnay.",
+              "price": 900,
+              "sizes": ["750ml"],
+              "image": "https://acdn.mitiendanube.com/stores/861/458/products/333611-43fba1b86f3b4c68d415671052502457-1024-1024.webp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
